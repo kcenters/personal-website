@@ -1,0 +1,176 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+ 
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#index .photo {
+			margin-left:0px;
+		}
+		#skill_carousel li p {
+			padding: 5px 0 0 0;
+		}
+		.rate0, .rate1, .rate2, .rate3, .rate4, .rate5, .rate6, .rate7, .rate8, .rate9, .rate10 {
+			width: 170px;
+		}
+		ul.social {
+    		margin-left: 0px;
+			margin-top: 20px;
+		}
+		.block_text {
+		margin-left: 0px;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	nav {
+		position:relative;
+	}
+
+	nav ul
+	{
+		position:absolute;
+		top:81px;
+		left: 0;
+		width:100%;
+		background-color:#fff;
+		height:0;
+		-webkit-transition: all 400ms ease-in;
+		-moz-transition: all 400ms ease-in;
+		transition: all 400ms ease-in;
+		z-index:100;
+		text-align:left;
+		border-bottom: 4px solid #FE7134;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	}
+	.blue nav ul{
+		border-bottom-color:#8ecdd6;
+	}
+	.green nav ul{
+		border-bottom-color:#9ac58d;
+	}
+	.dark nav ul 
+	{
+		border-bottom-color:#495d60;
+	}
+	nav ul.open
+	{
+		display:block;
+		height:200px;
+		-webkit-transition: all 400ms ease-in;
+		-moz-transition: all 400ms ease-in;
+		transition: all 400ms ease-in;
+		
+	}
+	nav ul li {
+	float:none;
+	margin:10px 40%;
+	background-position: 0px 95%;
+	-webkit-transition: all 100ms ease-in;
+	-moz-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	display:inline-block;
+	
+	}
+	nav ul li:hover
+	{
+	padding-bottom:10px;
+	background-image: url(nav_hover.png);
+	background-repeat: repeat-x;
+	background-position: 0px bottom;
+	}
+	li.active
+	{
+	padding-bottom:10px;
+	background-image: url(nav_hover.png);
+	background-repeat: repeat-x;
+	background-position: 0px bottom;
+	}
+
+	nav ul#main_menu li a{
+	
+	display:block;
+	text-align:left;
+	text-shadow:none;
+	
+	}
+	#menu_min
+	{
+	display:inline-block;
+	cursor:pointer;
+	background-image:url(menu.png);
+	background-repeat:no-repeat;
+	padding: 0 0 0 30px;
+	font-size:22px;
+	color:#ae1e06;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffa256;
+	}
+	
+	.blue #menu_min{
+		color:#495d60;
+		text-shadow:0px 1px 0px #b6e4eb;
+		background-image:url(menu_blue.png);
+	}
+	.green #menu_min{
+		color:#475e40;
+		text-shadow:0px 1px 0px #c9e3c0;
+		background-image:url(menu_green.png);
+	}
+	.dark #menu_min 
+	{
+		color:#a0adaf;
+		text-shadow:0px 1px 0px #1e2e30;
+		background-image:url(menu_dark.png);
+	}
+	#hire_me .block {
+		overflow:hidden;
+	}
+	#hire_me_form .field_text {
+    margin-left: 30px;
+    margin-right: 10px;
+	}
+	#hire_me_form .field {
+    margin-right: 10px;
+	}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	header h1 a img {
+	width: 300px;
+	}	
+	}
+
+
+

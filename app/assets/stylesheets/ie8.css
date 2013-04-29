@@ -1,0 +1,43 @@
+/* CSS Document */
+
+.ie8 #carousel_ul figure figcaption {
+	display: none;
+	
+}
+.ie8 #carousel_ul figure a:hover figcaption {
+	display: block;
+}
+.ie8 .hire_plus {
+	background-color: transparent;
+	background-image: url(circle_orng.png);
+	background-repeat: no-repeat;	
+	
+}
+.ie8 .blue .hire_plus {
+	background-image:url(circle_blue.png);
+}
+.ie8 .green .hire_plus {
+	background-image:url(circle_green.png);
+}
+.ie8 .dark .hire_plus {
+	background-image:url(circle_dark.png);
+}
+.ie8 .hire_plus:hover 
+{
+	color:#FFF;
+	background-image:url(circle_grey.png);
+}
+.ie8 .hire_plus:hover .tooltip
+{
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80495d60,endColorstr=#80495d60);
+	zoom: 1;
+	
+} 
+.ie8 .hire_plus:hover .tooltip:after
+{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+   	border-color:transparent;
+	border-top-color:#495d60;
+	zoom: 1;
+}

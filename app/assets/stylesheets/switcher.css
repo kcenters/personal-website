@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+#style_panel #control {
+	background-color: #495d60;
+	background-image:url(gear.png);
+	background-repeat:no-repeat;
+	background-position:9px 9px;
+	float: right;
+	height: 40px;
+	width: 40px;
+	display:block;
+}
+#style_panel .title h5 {
+	float: left;
+	font-family:'Droid Sans', sans-serif;
+	font-size:14px;
+	color: #fff;
+	padding:13px 0 0 15px;
+	text-transform:none;
+}
+#style_panel .title {
+	background-color: #495d60;
+	height: 40px;
+	width: 210px;
+}
+#style_panel .inner {
+	background-color: #fff;
+	float: left;
+	width: 170px;
+}
+#style_panel {
+	width:210px;
+	position:fixed;
+	top:20%;
+	left:-170px;
+	z-index:120;
+	-o-transition: all 350ms ease-in;
+	-webkit-transition: all 350ms ease-in;
+	-moz-transition: all 350ms ease-in;
+	transition: all 350ms ease-in;
+	
+}
+#style_panel.opens {
+	width:210px;
+	position:fixed;
+	top:20%;
+	left:0px;
+	
+}
+
+#style_panel .inner h6 {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	font-family:'Droid Sans', sans-serif;
+	font-size:12px;
+	color: #495d60;
+}
+#default, #backtothemef {
+	font-family: 'Bree Serif';
+	font-size: 13px;
+	text-transform: uppercase;
+	display:block;
+	margin:15px 0 15px 15px;
+	text-decoration:underline;
+	color: #495d60;
+}
+#style_panel .inner ul
+{
+margin:0 0 0 15px;
+overflow:hidden;
+}
+#style_panel .inner ul li
+{
+float:left;
+margin:5px 5px 0 0;
+}
+#style_panel .inner #color li a {
+	display:block;
+	background-color: #FE7134;
+	border-radius:15px;
+	height: 30px;
+	width: 30px;
+}
+#style_panel .inner #color li .blue {
+	background-color: #8ecdd6;
+}
+#style_panel .inner #color li .green {
+	background-color: #9ac58d;
+}
+#style_panel .inner #color li .dark  {
+	background-color: #495d60;
+}
+#style_panel .inner #pattern a {
+	display:block;
+	height: 31px;
+	width: 31px;
+	background-repeat:no-repeat;
+}
+.bg_180
+{
+background-image:url(bg_18.png);
+}
+.bg_280
+{
+background-image:url(bg_28.png);
+}
+.bg_380
+{
+background-image:url(bg_38.png);
+}
+.bg_480
+{
+background-image:url(bg_48.png);
+}
+.bg_580
+{
+background-image:url(bg_58.png);
+}				

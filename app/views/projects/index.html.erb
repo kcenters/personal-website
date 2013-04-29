@@ -1,0 +1,383 @@
+
+  <!-- Primary Page Layout
+  ================================================== -->
+
+  <div class="container"> <!-- container -->
+        <div class="grid_12">
+          <!-- logo & slogan-->
+            <header>
+                  <h1 class="text_logo">
+                     <a href="index.html">Keenan Centers</a>
+                </h1>
+                
+       
+                <h2>To infinity and beyond!!!</h2>
+            </header>
+            <!-- main navigation   --> 
+            <nav id="tab-container" class='tab-container'>       
+            
+                <ul id="main_menu">
+                    <li><a href="#index" class="home">Home</a></li>
+                    <!--li><a href="#portfolio" class="portfolio">Portfolio</a></li-->
+                    <li><a href="#about" class="about">About</a></li>
+                    <li><a href="#contact" class="contact">Contact</a></li>
+                    <li style="display:none; margin:0;"><a href="#hire_me" ></a></li>
+                </ul>
+               
+            </nav> <!-- end main navigation   --> 
+      </div>
+        
+    <div id='panel-container'><!-- container of pages-->
+           
+           <div id="index" class="one_panel first_panel"><!-- Home page-->
+           
+              <div class="grid_4">
+                    <div class="block">
+                    <!--h3> Here is me:</h3-->
+                     <div class="photo">
+                         <div id="slider" class="nivoSlider">
+                         <!-- size of img 174 px 204px -->
+                             <!--img  src="images/me.jpg" alt=""-->
+                             <%= image_tag(asset_path("me2.jpg")) %>
+                             <!--img  src="/images/smiley.png" alt=""-->
+                             
+                         </div>
+                     <!--a href="#hire_me" id='hire_plus' class="hire_plus">+<span class="tooltip">hire me</span></a-->
+                     </div>
+                    </div>
+              </div>
+              <div class="grid_4">
+                    <div class="block">
+                        <h3>Information:</h3>
+                        <div class="block_text"> 
+                           <p><b>Name:</b> Keenan Centers</p>
+                            <p><b>Birthday:</b> June 3, 1984</p>
+                            <!--p><b>Adress: </b>10 South Park Avenue San Francisco,
+                             CA 94108 USA </p-->
+                            <!--br>
+                            <p>Contact me</p-->
+                            <p> <b>Email:</b> keenancenters@gmail.com</p>
+                            <p><b>Phone:</b> (903)646-2158</p>
+                            <p><b>Location:</b> Henderson, Texas</p>
+                            
+                        </div>
+                  </div>
+              </div>
+              <div class="grid_4">
+                <div class="block">
+                    <h3> Bio</h3>
+                    <div class="block_text">
+                      <p>Hello, I'm Keenan Centers. When I'm not developing, I like to partake in many other activities such as dance, playing piano, sightseeing, and pretty much anything else that excites me.     </p>
+                    </div>
+                         <ul class="social">
+                          <!--li><a href="#" class="facebook"></a></li>
+                          <li><a href="#" class="google"></a></li>
+                          <li><a href="#" class="twiter"></a></li>
+                          <li><a href="#" class="youtybe"></a></li-->
+                          <li><a href="http://www.linkedin.com/pub/keenan-centers/68/845/a20" class="linkedIn"></a></li>
+                          <!--li><a href="#" class="skype"></a></li>
+                          <li><a href="#" class="tumbler"></a></li>
+                          <li><a href="#" class="vimeo"></a></li>
+                          <li><a href="#" class="dribble"></a></li>
+                          <li><a href="#" class="digg"></a></li>
+                          <li><a href="#" class="deviantart"></a></li>
+                          <li><a href="#" class="flickr"></a></li-->
+                         </ul>
+                       
+                
+                </div>
+              </div>
+              
+              <br class="clear" />
+               <!--p class="copyright">@ keenancenters, 2013. All rights reserved</p-->
+            
+          </div><!-- end of Home page-->
+                                         
+           <div id="portfolio" class="one_panel"><!-- portfolio page-->
+              <div class="grid_12 portfolio_bg">
+                <div id='carousel_inner' class="grid_12 alpha omega">
+                   <ul id='carousel_ul'>
+                                <li class='jquery css html'>
+                                    <figure><a href="port1.jpg" rel="prettyPhoto">
+                                      <%= image_tag(asset_path("port1.jpg")) %>
+                                        <figcaption>
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Sed blandit rhoncus sapien in porttitor. In accumsan vestibulum quam.</p>
+                                        </figcaption>
+                                    </a>
+                                    </figure>
+                                </li>
+                                <li class='jquery css'>
+                                    <figure><a href="port3.jpg" rel="prettyPhoto">
+                                      <%= image_tag(asset_path("port3.jpg")) %>
+                                      <figcaption>
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Sed blandit rhoncus sapien in porttitor. In accumsan vestibulum quam.</p>
+                                        </figcaption>
+                                    </a>
+                                    </figure>
+                                </li>
+                                <li class='jquery html'>
+                                    <figure><a href="port1.jpg" rel="prettyPhoto">
+                                      <%= image_tag(asset_path("port1.jpg")) %>
+                                      <figcaption>
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Sed blandit rhoncus sapien in porttitor. In accumsan vestibulum quam.</p>
+                                        </figcaption>
+                                    </a>
+                                    </figure>
+                                </li>
+                                <li class='jquery css html'>
+                                    <figure><a href="images/port3.jpg" rel="prettyPhoto">
+                                      <%= image_tag(asset_path("port3.jpg")) %>
+                                      <figcaption>
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Sed blandit rhoncus sapien in porttitor. In accumsan vestibulum quam.</p>
+                                        </figcaption>
+                                    </a>
+                                    </figure>
+                                </li>
+                                <li class='jquery'>
+                                    <figure><a href="images/port1.jpg" rel="prettyPhoto">
+                                      <%= image_tag(asset_path("port1.jpg")) %>
+                                      <figcaption>
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Sed blandit rhoncus sapien in porttitor. In accumsan vestibulum quam.</p>
+                                        </figcaption>
+                                    </a>
+                                    </figure>
+                                </li>
+                                <li class='html'>
+                                    <figure><a href="images/port2.jpg" rel="prettyPhoto">
+                                      <%= image_tag(asset_path("port2.jpg")) %>
+                                      <figcaption>
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Sed blandit rhoncus sapien in porttitor. In accumsan vestibulum quam.</p>
+                                        </figcaption>
+                                    </a>
+                                    </figure>
+                                </li>
+                                <li class='php'>
+                                    <figure><a href="images/port3.jpg" rel="prettyPhoto">
+                                      <%= image_tag(asset_path("port3.jpg")) %>
+                                      <figcaption>
+                                        <h5>Lorem ipsum dolor sit amet</h5>
+                                        <p>Sed blandit rhoncus sapien in porttitor. In accumsan vestibulum quam.</p>
+                                        </figcaption>
+                                    </a>
+                                    </figure>
+                                </li>
+                         </ul>
+                </div>
+                <a href="#" id='right_scroll' class='right_scroll'></a>
+                <a href="#" id='left_scroll' class='left_scroll'></a>
+                
+            <div id='filters'>
+                       <a href='#' id='all'>All</a>
+                       <a href='#' id='jquery'>jQuery</a> 
+                       <a href='#' id='php'>PHP</a> 
+                       <a href='#' id='html'>HTML</a>
+                       <a href='#' id='css'>CSS</a>
+                </div>
+             </div>
+             <!--p class="copyright">@ keenancenters, 2013. All rights reserved</-->
+          
+           </div><!-- end of  portfolio page-->
+           
+           <div id="about" class="one_panel"><!-- about page-->
+           
+              <div class="grid_4">
+                <div class="block">
+                <h3>education:</h3>
+                <div class="scrollContent">
+                 <p class="date_of_study">2002-2005</p>
+                 <h4>Kilgore Junior College</h4>
+                 <h5>Gradudated with </h5>
+                 <p> My first few years I attended Kilgore College learning the basics and fundamnentals of programming. </p>
+                    <p class="date_of_study">2006-2009</p>
+                 <h4>University of Texas Tyler</h4>
+                 <h5>Graduated with Bachelors in Computer Science</h5>
+                 <p>After finishing Kilgore College,
+                  I transferred colleges and began majoring in Computer Science where I received my Bachelors Degree. </p>
+              
+               </div> <!--end scroll content-->
+                </div>
+              </div>
+             
+                <div class="grid_4">
+                  
+                <div class="blockSkill grid_4 alpha omega">
+                  <ul id="skill_carousel">
+                        <li>
+                            <h3>Skills:</h3>
+                            <div class="scrollContent">
+                                <p> Rails <span class="rate8"></span></p>
+                                <p> Ruby   <span class="rate8">&nbsp;</span></p>
+                                <p>JQuery <span class="rate7"></span></p>
+                                <p> HTML <span class="rate9"></span></p>
+                                <p> MYSQL <span class="rate8"></span></p> 
+                                <p> PHP <span class="rate5"></span></p> 
+                                <p> CSS <span class="rate5"></span></p>
+                                <p> Cucumber <span class="rate7"></span></p>
+                                <p> RSpec <span class="rate7"></span></p>
+                                <p> Git <span class="rate6"></span></p>
+
+                            </div>
+                            <!--a href="#" id='rightmove' class='right_scroll'></a>
+                            <a href="#" id='leftmove' class='left_scroll'></a>
+                        <!--/li>
+                        <li-->
+                            <!--h3>Skills:</h3-->
+                           
+                            
+                            <!--a href="#" id='rightmove' class='right_scroll'></a>
+                            <a href="#" id='leftmove' class='left_scroll'></a-->
+                        </li>
+                    </ul>
+
+                
+                </div>
+                           
+                </div>
+                             
+              <div class="grid_4">
+                <div class="block">
+                    <h3>Employment:</h3>
+                    <div class="scrollContent">
+                    <p class="date_of_study">2008-2013</p>
+                    <h4>Software Allies</h4>
+                    <h5> Rails Developer/ PHP / Perl </h5>
+                    <p>Software Allies works with clients to deliver large scale applications. They've worked with MVC architectures such as Catalyst and Rails. In return, this has allowed me to gain more insight about the processes involved to build and maintain applications. It has also allowed me to improve my abilities as a developer.  </p>
+                       
+                           
+                   </div> <!--end scroll content-->
+                 </div>
+              </div> 
+              <br class="clear" />
+               <!--p class="copyright">@ keenancenters, 2013. All rights reserved</p-->         
+          
+           </div><!-- end of about page-->
+           
+           <div id="contact" class="one_panel"> <!--contact page-->
+           
+              <div class="grid_4">
+                <div class="block">
+                    <h3> Quick contact:</h3>
+                    
+                    <p class="free_to_contact">Contact me:</p>
+                    <p><b>Email:</b> keenancenters@gmail.com</p>
+                    <p><b>Phone:</b> (903)646-2158</p>
+          
+
+                         <!--ul class="social contact_social">
+                          <li><a href="#" class="facebook"></a></li>
+                          <li><a href="#" class="google"></a></li>
+                          <li><a href="#" class="twiter"></a></li>
+                          <li><a href="#" class="youtybe"></a></li>
+                          <li><a href="#" class="linkedIn"></a></li>
+                          <li><a href="#" class="skype"></a></li>
+                          <li><a href="#" class="tumbler"></a></li>
+                          <li><a href="#" class="vimeo"></a></li>
+                          <li><a href="#" class="dribble"></a></li>
+                          <li><a href="#" class="digg"></a></li>
+                          <li><a href="#" class="deviantart"></a></li>
+                          <li><a href="#" class="flickr"></a></li>
+                         </ul-->
+                       
+                
+                </div>
+              </div>
+              <div class="grid_4">
+                <div id="map_canvas" class="block"></div>
+              </div>
+              <div class="grid_4">
+                <div class="block">
+                <h3>Write me:</h3>
+                <form method="post" action="sendEmail.php" id="contact_form" >
+                
+                
+                  <div class="clearfix">
+                    <input type="text" name="name" id="name"  placeholder="Name:" />
+                  </div>
+                  <div class="clearfix">
+                    <input type="text" name="email" id="email" placeholder="Email:" />
+                  </div>
+                                                        
+                  <div class="clearfix">
+                    <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Message:"></textarea>
+                  </div>
+                
+                  <div class="wrapper">
+                    <input type="submit" name="submit" id="submit" value="send &gt;&gt;"/>
+                  </div>
+                                    
+                
+              </form>
+               </div>
+              </div> 
+              <br class="clear" />
+               
+           
+           </div> <!-- end of contact page-->
+           
+           <div id="hire_me" class="grid_12"> <!--hire me form-->
+           
+                <div class="block">
+                <h3>Write me:</h3>
+                <form method="post" action="sendHireForm.php" id="hire_me_form" >
+                    <div class="grid_4 alpha omega">   
+                      <div class="field clearfix">
+                            <input type="text" name="name" id="nameh"  placeholder="Name:" />
+                        </div>
+                        <div class="field clearfix">
+                            <input type="text" name="email" id="emailh" placeholder="Email:" />
+                        </div>
+                        <div class="field clearfix">
+                            <input type="text" name="company" id="companyh"  placeholder="Company:" />
+                        </div>
+                        <div class="field clearfix">
+                            <input type="text" name="phone" id="phoneh" placeholder="Phone:" />
+                        </div>
+                        <div class="field clearfix">
+                            <select id="roleh" name="role" class="default" tabindex="4">
+                              <option value="HTML developer">HTML developer</option>
+                                <option value="Designer">Designer</option>
+                                <option value="Coder">Coder</option>
+                            </select>
+                        </div>
+                    </div>
+          <div class="grid_8">
+                        <div class="field_text clearfix">
+                            <textarea name="comments" id="commentsh" cols="30" rows="5" placeholder="Message:"></textarea>
+                        </div>
+                    </div>
+          <div class="submit_link">
+            <input type="submit" name="submit" id="submith" value="send &gt;&gt;"/>
+          </div>
+                </form>
+                </div>
+            
+              <br class="clear" />
+              <!--p class="copyright">@ keenancenters, 2013. All rights reserved</p-->   
+        </div> <!-- end of hire me form-->
+           
+    </div> <!-- end of panel-container (container of pages)-->
+        
+        
+  </div><!-- end container -->
+
+  
+  <script type="text/javascript">
+  Modernizr.load([
+    {
+    test : Modernizr.borderradius,
+    nope : ['js/jquery.corner.js'],
+    complete : function () {
+      if(Modernizr.borderradius)return;
+     $('.social li a').corner('15px');
+    $('.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar').corner('8px'); 
+    }
+    }  
+  ]);
+  
+  </script>

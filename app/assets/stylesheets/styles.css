@@ -1,0 +1,819 @@
+/*
+Template Name: William Davis
+Template URI: http://gozha.net/wd/
+Author: Olechka
+Author URI: http://themeforest.net/user/olechka/
+Description: William Davis HTML5/CSS3 Responsive VCard Template.
+Version: 1.0
+*/
+
+ 
+/* Table of Content
+==================================================
+	#Header
+	#Common style of one page
+	#Home page
+	#Portfolio
+	#About
+	#Contact
+	#Hire Me Form
+*/
+
+
+body {
+	background-image:url(bg_180.jpg);
+	/***   If you need anither background remove next comment ***/
+/*	background-image:url(../images/bg_280.jpg);*/
+/*	background-image:url(../images/bg_380.jpg);*/
+/*	background-image:url(../images/bg_480.jpg);*/
+/*	background-image:url(../images/bg_580.jpg);*/
+	overflow:scroll;
+ }
+	
+/* #Header
+================================================== */
+
+header h1
+{
+margin-top:60px;
+}
+h1, h2
+{
+	text-align:center;
+}
+/***it hide text William Davis (it is needed for SEO)****/
+.hide
+{
+  display: block;
+    height: 0;
+    text-indent: -9999px;
+}
+.text_logo
+{
+	margin-top:55px;
+}
+.text_logo a
+{
+	color: #495d60;
+	text-shadow:-3px 3px 0px #d4d3d2;
+}
+nav {
+	background-image: url(bg_nav.jpg);
+	background-repeat: repeat-x;
+	height: 50px;
+	text-align:center;
+	margin-top: 55px;
+	padding-top: 31px;
+	margin-bottom: 20px;
+}
+
+nav ul
+{	
+	display:inline-block;
+	overflow:hidden;
+	margin:auto;
+}
+nav ul li {
+	float: left;
+	margin:0 21px;
+	background-position: 0px 75%;
+	-o-transition: all 100ms ease-in;
+	-webkit-transition: all 100ms ease-in;
+	-moz-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	padding-bottom:10px;
+	
+}
+nav ul li:hover
+{
+	padding-bottom:10px;
+	background-image: url(nav_hover.png);
+	background-repeat: repeat-x;
+	background-position: 0px bottom;
+}
+li.active
+{
+	padding-bottom:10px;
+	background-image: url(nav_hover.png);
+	background-repeat: repeat-x;
+	background-position: 0px bottom;
+}
+
+nav ul li a{
+	font-size:16px;
+	color:#ae1e06;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffa256;
+	display:block;
+	padding-left:30px;
+	background-repeat: no-repeat;
+
+}
+#menu_min
+	{
+		display:none;
+	}
+
+/*add icon for menu items*/
+.home {
+	background-image: url(home_blue.png);
+}
+.portfolio {
+	background-image: url(portfolio.png);
+}
+.about {
+	background-image: url(smiley.png);
+	}
+.contact {
+	background-image: url(contact_blue.png);
+	background-position: 0px 2px;
+}
+
+/*blue skin*/
+.blue nav {
+background-image: url(bg_nav_blue.jpg);
+}
+.blue nav ul li:hover
+{
+	background-image: url(nav_hover_blue.png);
+}
+.blue li.active
+{
+	background-image: url(nav_hover_blue.png);
+}
+.blue nav ul li a{
+		color:#495d60;
+		text-shadow:0px 1px 0px #b6e4eb;
+	}
+.blue .home {
+	background-image: url(home_blue.png);
+}
+.blue .portfolio {
+	background-image: url(portfolio_blue.png);
+}
+.blue .about {
+	background-image: url(about_blue.png);
+	}
+.blue .contact {
+	background-image: url(contact_blue.png);
+}
+
+/*green skin*/
+.green nav {
+	background-image: url(bg_nav_green.jpg);
+}
+.green nav ul li:hover
+{
+	background-image: url(nav_hover_green.png);
+}
+.green li.active
+{
+	background-image: url(nav_hover_green.png);
+}
+.green nav ul li a{
+		color:#475e40;
+		text-shadow:0px 1px 0px #c9e3c0;
+	}
+.green .home {
+	background-image: url(home_green.png);
+}
+.green .portfolio {
+	background-image: url(portfolio_green.png);
+}
+.green .about {
+	background-image: url(about_green.png);
+	}
+.green .contact {
+	background-image: url(contact_green.png);
+}
+
+/*dark skin*/
+
+.dark nav {
+	background-image: url(bg_nav_dark.jpg);
+}
+.dark nav ul li:hover
+{
+	background-image: url(nav_hover_dark.png);
+}
+.dark li.active
+{
+	background-image: url(nav_hover_dark.png);
+}
+.dark nav ul li a{
+		color:#a0adaf;
+		text-shadow:0px 1px 0px #1e2e30;
+	}
+.dark .home {
+	background-image: url(home_dark.png);
+}
+.dark .portfolio {
+	background-image: url(portfolio_dark.png);
+}
+.dark .about {
+	background-image: url(about_dark.png);
+	}
+.dark .contact {
+	background-image: url(contact_dark.png);
+}
+/* End of Header
+================================================== */
+
+/* Common style of one page
+================================================== */
+#panel-container > div {
+	display: none;/* hide another pages */
+	float:left;
+}
+#panel-container .first_panel
+{
+	display: block;/*show first page*/
+}
+
+#index .block
+{
+	padding-left: 30px;
+}
+.block {
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #fe7134;
+	height: 265px;
+	background-color: #FFF;
+	padding: 16px 10px 15px 20px;
+}
+
+.block h3 {
+	margin-bottom: 20px;
+}
+.block_text {
+	margin-left: 30px;
+}
+.copyright {
+	text-align: center;
+	margin-top: 30px;
+}
+.blue .block {
+	border-top-color: #8ecdd6;
+}
+.green .block {
+	border-top-color: #9ac58d;
+}
+.dark .block {
+	border-top-color: #495d60;
+}
+/* End of Common style of one page
+================================================== */
+
+/* Home page style
+================================================== */
+.photo {
+	float: left;
+	margin-left: 30px;
+	position: relative;
+	border: 2px dotted #cfcfcf;
+	padding: 3px;
+	width: 174px;
+	height: 233px;
+	background: url(143.gif) no-repeat 50% 50%; /*preloader*/
+}
+.hire_plus {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	color:#FFF;
+	text-decoration:none;
+	text-indent:9px;
+	line-height:31px;
+	display:block;
+	background-color: #FE7134;
+	border-radius:15px;
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	right: 8%;
+	bottom: 8%;
+	z-index:100;
+	-o-transition: all 350ms ease-in;
+	-webkit-transition: all 350ms ease-in;
+	-moz-transition: all 350ms ease-in;
+	transition: all 350ms ease-in;
+	
+}
+.blue .hire_plus {
+	background-color: #8ecdd6;
+}
+.green .hire_plus {
+	background-color: #9ac58d;
+}
+.dark .hire_plus {
+	background-color: #495d60;
+}
+.hire_plus:hover 
+{
+	color:#FFF;
+	background-color:#bfbebe;
+}
+.tooltip
+{
+	height:0;
+	width:0;
+	font-size:0px;
+	line-height: 0px;
+	color: rgba(73,93,96,0.1);
+	text-align: center;
+	text-indent:-1px;
+	position: absolute;
+	top: -34px;
+	left: -28px;
+	-o-transition: all 350ms ease-in;
+	-webkit-transition: all 350ms ease-in;
+	-moz-transition: all 350ms ease-in;
+	transition: all 350ms ease-in;
+	
+}
+
+.hire_plus:hover .tooltip
+{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 12px;
+	color:#fff;
+	line-height: 24px;
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: -34px;
+	left: -28px;
+	width: 85px;
+	height: 25px;
+	background-color: rgba(73,93,96,0.8);
+} 
+.hire_plus:hover .tooltip:after
+{
+	display:block;
+	content: '';
+	border: 7px solid;
+	border-color:rgba(73,93,96,0.8) transparent transparent transparent;
+	top: 25px;
+	left: 35px;
+	position:absolute;
+	height:0;
+	width:0;
+	padding:0;
+}
+
+
+ul.social {
+	margin-left: 30px;
+	margin-top:35px;
+	overflow:hidden;
+}
+.social li {
+	float: left;
+}
+.social li a{
+	display:block;
+	height: 30px;
+	width: 30px;
+	margin-right: 20px;
+	background-color:#bfbebe;
+	border-radius:15px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-o-transition: all 400ms ease-in;
+	-webkit-transition: all 400ms ease-in;
+	-moz-transition: all 450ms ease-in;
+	transition: all 450ms ease-in;
+}
+.social li a:hover{
+	background-color: #fe7134;
+	position:relative;
+	top:3px;
+}
+.blue .social li a:hover {
+	background-color: #8ecdd6;
+}
+.green .social li a:hover {
+	background-color: #9ac58d;
+}
+.dark .social li a:hover {
+	background-color: #495d60;
+}
+/*add social icon */
+.facebook {
+	background-image: url(facebook_ico.png);
+}
+.google {
+	background-image:url(google_ico.png);
+}
+.twiter {
+	background-image: url(twiter_ico.png);
+}
+.youtybe{
+	background-image:url(youtybe_ico.png);
+}
+.linkedIn{
+	background-image: url(linkedIn_ico.png);
+}
+.skype{
+	background-image: url(skype_ico.png);
+}
+.tumbler{
+	background-image:url(tumbler_ico.png);
+}
+.vimeo{
+	background-image:url(vimeo_ico.png);
+}
+.dribble{
+	background-image:url(dribble_ico.png);
+}
+.digg{
+	background-image:url(dig_ico.png);
+}
+.deviantart{
+	background-image:url(deviantart_ico.png);
+}
+.flickr{
+	background-image:url(flickr.png);
+}
+/* End of Home page style
+================================================== */
+
+/* Portfolio page style
+================================================== */
+#carousel_inner {
+    float:left; /* important for inline positioning */
+    overflow: hidden;  /* important (hide the items outside the div) */
+    /* non-important styling bellow */
+   	margin-bottom:20px;
+}
+#carousel_ul {
+    position:relative;
+    left:0px; /* important (this should be negative number of list items width(including margin) */
+    list-style-type: none; /* removing the default styling for unordered list items */
+    width:9999px; /* important */
+    /* non-important styling bellow */ 
+	margin: 0px;
+    padding: 0px;
+    height:300px;
+}
+#carousel_ul li{
+    float: left; /* important for inline positioning of the list items */                                    
+    width:290px;  /* fixed width, important */
+    /* just styling bellow*/
+    padding:5px;
+    height:290px;
+    background: #fff;
+    margin-bottom:0;
+    margin-right:20px; 
+}
+.left_scroll, .right_scroll{
+	float: right;
+	display: block;
+	height: 12px;
+	width: 8px;
+	margin:10px 0 0 12px;
+	background-image: url(arrow_sprite.png);
+	background-repeat: no-repeat;
+}
+.right_scroll {
+	background-position: -8px -12px;
+}
+.left_scroll {
+	background-position: 0px -12px;
+}
+.right_scroll:hover {
+	background-position: -8px 0px;
+}
+.left_scroll:hover {
+	background-position: 0px 0px;
+}
+/*** setting another color arrow***/
+.blue .right_scroll:hover {
+	background-position: -8px -24px;
+}
+.blue .left_scroll:hover {
+	background-position: 0px -24px;
+}
+.green .right_scroll:hover {
+	background-position: -8px -36px;
+}
+.green .left_scroll:hover {
+	background-position: 0px -36px;
+}
+.dark .right_scroll:hover {
+	background-position: -8px -48px;
+}
+.dark .left_scroll:hover {
+	background-position: 0px -48px;
+}
+
+#filters {
+	float: left;
+}
+#filters a {
+	display:block;
+	padding:5px 15px;
+	float:left;
+	text-decoration: none;
+	font-family:'Droid Sans', sans-serif;
+	font-size:12px;
+	color: #495d60;
+}
+#filters a:hover {
+	background-color:#fe7134;
+	color:#fff;
+}
+.blue #filters a:hover {
+	background-color: #8ecdd6;
+}
+.green #filters a:hover {
+	background-color: #9ac58d;
+}
+.dark #filters a:hover {
+	background-color: #495d60;
+}
+#filters .activef /*used js, setting active class in filtering link*/
+{
+background-color:#fe7134;
+	color:#fff;
+}
+.blue #filters .activef {
+	background-color: #8ecdd6;
+}
+.green #filters .activef {
+	background-color: #9ac58d;
+}
+.dark #filters .activef {
+	background-color: #495d60;
+}
+.portfolio_bg {
+	background-image: url(portfolio_bg.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	padding-bottom: 33px;
+	margin-bottom:30px;
+}
+/**** caption overlay ****/
+#carousel_ul figure {
+	position: relative;
+}
+#carousel_ul figure a {
+	display:block;
+	line-height:0;
+}
+#carousel_ul figure figcaption {
+	opacity:0;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-image: url(pattern_hover.png);
+	-o-transition: all 0.5s ease-out 0s;
+	-webkit-transition: all 0.5s ease-out 0s;
+	-moz-transition: all 0.5s ease-out 0s;
+	transition: all 0.5s ease-out 0s;
+}
+#carousel_ul figure a:hover figcaption {
+	opacity:1;
+}
+#carousel_ul figure a:hover figcaption h5{
+	margin:35% 0 0 0;
+	
+}
+#carousel_ul figure figcaption h5{
+	margin:5% 0 0 0;
+	background-color:#fe7134;
+	color:#fff;
+	padding:15px 0 8px 20px;
+	line-height:1.5em;
+	-o-transition: all 0.5s ease-out 0s;
+	-webkit-transition: all 0.5s ease-out 0s;
+	-moz-transition: all 0.5s ease-out 0s;
+	transition: all 0.5s ease-out 0s;
+}
+#carousel_ul figure figcaption p{
+	margin:0;
+	background-color:#fe7134;
+	color:#fff;
+	padding:0 0 20px 20px;
+	line-height:1.5em;
+}
+.blue #carousel_ul figure figcaption h5 {
+	background-color: #8ecdd6;
+}
+.green #carousel_ul figure figcaption h5 {
+	background-color: #9ac58d;
+}
+.dark #carousel_ul figure figcaption h5 {
+	background-color: #495d60;
+}
+.blue #carousel_ul figure figcaption p {
+	background-color: #8ecdd6;
+}
+.green #carousel_ul figure figcaption p {
+	background-color: #9ac58d;
+}
+.dark #carousel_ul figure figcaption p {
+	background-color: #495d60;
+}
+/* End of Portfolio page style
+================================================== */
+/* About page style
+================================================== */
+.scrollContent {
+	height: 240px;
+}
+#about h3 {
+	margin-bottom: 10px;
+}
+.date_of_study {
+	font-family: 'Bree Serif';
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+#about h5 {
+	margin-bottom: 10px;
+}
+
+.rate0, .rate1, .rate2, .rate3, .rate4, .rate5, .rate6, .rate7, .rate8, .rate9, .rate10 {
+	background-image: url(rate.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	display: inline-block;
+	float: right;
+	height: 10px;
+	width: 145px;
+	margin: 2px 2px 0 4px;
+	text-align: right;
+}
+
+.blue .rate0, .blue .rate1, .blue .rate2, .blue .rate3, .blue .rate4, .blue .rate5, .blue .rate6, .blue .rate7, .blue .rate8, .blue .rate9, .blue .rate10 {
+	background-image: url(rate_blue.png);
+}
+.green .rate0, .green .rate1, .green .rate2, .green .rate3, .green .rate4, .green .rate5, .green .rate6, .green .rate7, .green .rate8, .green .rate9, .green .rate10 {
+	background-image: url(rate_green.png);
+}
+.dark .rate0, .dark .rate1, .dark .rate2, .dark .rate3, .dark .rate4, .dark .rate5, .dark .rate6, .dark .rate7, .dark .rate8, .dark .rate9, .dark .rate10 {
+	background-image: url(rate_dark.png);
+}
+
+.rate0 {
+	background-position: 0px 0px;
+}
+.rate1 {
+	background-position: 0px -10px;
+}
+
+.rate2 {
+	background-position: 0px -20px;
+}
+.rate3 {
+	background-position: 0px -30px;
+}
+
+.rate4 {
+	background-position: 0px -40px;
+}
+.rate5 {
+	background-position: 0px -50px;
+}
+
+.rate6 {
+	background-position: 0px -60px;
+}
+.rate7 {
+	background-position: 0px -70px;
+}
+.rate8 {
+	background-position: 0px -80px;
+}
+.rate9 {
+	background-position: 0px -90px;
+}
+.rate10 {
+	background-position: 0px -100px;
+}
+#skill_carousel li {
+	margin: 0 200px 0 0;
+	padding:0 10px 0 20px;
+	width:240px;
+	float:left;
+}
+#skill_carousel
+{
+	position: relative; 
+	left: 0px; 
+	width: 9999px;
+}
+#skill_carousel li p {
+	padding: 5px 0 0 25px;
+	margin: 15px 0 24px 0;
+	overflow:hidden;
+}
+.blockSkill {
+	background-color: #fff;
+	border-top: 4px solid #FE7134;
+	height: 265px;
+	padding: 16px 0 15px 0;
+	overflow:hidden;
+	float:left;
+}
+.blue .blockSkill {
+	border-top-color: #8ecdd6;
+}
+.green .blockSkill {
+	border-top-color: #9ac58d;
+}
+.dark .blockSkill {
+	border-top-color: #495d60;
+}
+#leftmove, #rightmove{
+	float: right;
+}
+#rightmove {
+	margin:10px 45% 0 0;
+}
+#leftmove {
+	margin:10px 10px 0 0;
+}
+
+/* End of About page style
+================================================== */
+/* Contact page style
+================================================== */
+
+.social.contact_social {
+	margin: 0px;
+	padding-top: 15px;
+}
+.contact_social li a {
+	margin-right: 10px;
+}
+.free_to_contact {
+	margin-top: -3px;
+	margin-bottom: 20px;
+}
+.invalid_field
+{
+	border: 1px solid #fe7b3f !important;
+	-moz-box-shadow: 0 0 3px rgba(254,113,52,.5);
+	-webkit-box-shadow: 0 0 3px rgba(254,113,52,.5);
+	box-shadow:  0 0 3px rgba(254,113,52,.5);
+}
+.blue .invalid_field{
+	border-color: #8ecdd6 !important;
+	-moz-box-shadow: 0 0 3px rgba(142,205,214,.5);
+	-webkit-box-shadow: 0 0 3px rgba(142,205,214,.5);
+	box-shadow:  0 0 3px rgba(142,205,214,.5);
+}
+.green .invalid_field {
+	border-color: #9ac58d !important;
+	-moz-box-shadow: 0 0 3px rgba(154,197,141,.5);
+	-webkit-box-shadow: 0 0 3px rgba(154,197,141,.5);
+	box-shadow:  0 0 3px rgba(154,197,141,.5);
+}
+.dark .invalid_field {
+	border-color: #495d60 !important;
+	-moz-box-shadow: 0 0 3px rgba(73,93,96,.7);
+	-webkit-box-shadow: 0 0 3px rgba(73,93,96,.7);
+	box-shadow:  0 0 3px rgba(73,93,96,.7);
+}
+
+.success {
+	font-weight:bold;
+}
+/* End of Contact page style
+================================================== */
+#hire_me_form textarea {
+	width: 600px;
+}
+#hire_me .block {
+	padding-right: 0px;
+	padding-left: 0px;
+	height:auto;
+	min-height:265px;
+	
+}
+#hire_me .block h3{
+	margin-left:30px;
+	}
+#hire_me_form .field {
+	margin-left: 30px;
+}
+#hire_me_form .field_text {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#hire_me_form .submit_link {
+	float: right;
+	margin-right:20px;
+}
+#hire_me_form .field_text #commentsh {
+	height: 190px;
+}
+#hire_me_form  .field input{
+	width: 270px;
+}
+
